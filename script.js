@@ -2,7 +2,7 @@ let colorarr = ['#0000FF','#FF0033','#F4D03F ','#666','#FF00CC'];
 colname = document.getElementById('cname');
 function colorChange(){
     color = document.body.style.background = colorarr[(Math.floor(Math.random() * colorarr.length))];
-    // change the background color randomly while clicking the button
+    //change the background color randomly while clicking the button
     if(color == '#0000FF'){
         colname.innerHTML = 'Background color: Blue';
     }else if(color == '#FF0033'){
