@@ -12,6 +12,6 @@ function colorChange(){
     }else if(color == '#666'){
         colname.innerHTML= 'Background color: Grey';
     }else if(color == '#FF00CC'){
-        colname.innerHTML = 'Background color: Pink'
+        colname.innerHTML = 'Background color: Pink';
     }
 }
